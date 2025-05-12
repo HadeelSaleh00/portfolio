@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    background-color: #dce1f0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+:root{
+   --font-size-title:16px;
+   --font-size-par:14px;
+}
+
+#cv{
+    margin: 30px auto;
+    background-color: #ffff;
+    width: 50%;
+    min-height: 60vh;
+    box-shadow: -1px -1px 1px #000;
+    color:#000;
+
+}
+#personal-information{
+    padding: 30px;
+}
+#personal-information .fisrt-information{
+    font-size: var(--font-size-par);
+    padding-left: 5px;
+}
+
+#personal-information .fisrt-information .address{
+    margin-top: 15px;
+   
+}
+#personal-information .fisrt-information  .mobile{
+  text-decoration: none;
+}
+#personal-information .fisrt-information a{
+color: #000;   
+}
+
+#personal-information #SUMMARY{
+margin-top: 25px;
+}
+#personal-information .section-title{
+    border-bottom: 2px solid #000;
+    font-size: var(--font-size-title);
+    padding-bottom: 1px;
+    margin: 14px 0;
+
+}
+#personal-information #SUMMARY p{
+    font-size: var(--font-size-par);
+   
+}
+#personal-information .stage-EDUCATION{
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+#personal-information .stage-EDUCATION p{
+    font-size: var(--font-size-par);
+    font-weight: bold;
+}
+#personal-information .stage-EDUCATION .EDUCATION-place{
+    font-style: italic;
+}
+#personal-information .stage-EDUCATION .stage-EDUCATION-information{
+    padding-left: 30px;
+    padding-top: 5px;
+    font-size: var(--font-size-par);
+    line-height: 18px;
+}
+#personal-information .stage-EDUCATION .stage-EDUCATION-information span{
+    font-weight: bold;
+}
+#EXPERIENCE ul , #Courses ul , #Activities ul , #Volunteer-work ul{
+    font-size: var(--font-size-par);
+    padding-left:65px;
+
+}
+
+#EXPERIENCE ul span , #Courses ul span , #Activities ul span , #Volunteer-work ul span{
+    font-style: italic;
+
+}
+
